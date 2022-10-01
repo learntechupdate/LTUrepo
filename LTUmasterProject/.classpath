@@ -5,7 +5,7 @@
 	<classpathentry kind="src" path="src/main/learnSelenium"/>
 	<classpathentry kind="src" path="src/main/Master"/>
 	<classpathentry kind="src" path="src/main/thoidJavapractice"/>
-	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/selenium"/>
 	<classpathentry kind="src" path="src/test/javaInterviewQ"/>
 	<classpathentry kind="src" path="src/test/seleniumInterviewProject"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
