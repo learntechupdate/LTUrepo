@@ -1,6 +1,6 @@
 package javaconcepts;
 
-class Calc{
+class CalcVar{
 	
 	public void add (int ...n)// this will feed as array
 	{		
@@ -19,7 +19,7 @@ public class VarargsDemo {
 	
 	public static void main(String[] args) {
 		
-		Calc xy = new Calc ();
+		CalcVar xy = new CalcVar ();
 		xy.add(4,6, 5);
 		
 	}
