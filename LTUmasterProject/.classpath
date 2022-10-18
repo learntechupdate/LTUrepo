@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src/main/automationQuickPractice"/>
-	<classpathentry kind="src" path="src/main/learnJava"/>
-	<classpathentry kind="src" path="src/main/learnSelenium"/>
+	<classpathentry kind="src" path="src/main/LtuAutomationQuickPractice"/>
+	<classpathentry kind="src" path="src/main/LtulearnJava"/>
+	<classpathentry kind="src" path="src/main/LtulearnSelenium"/>
 	<classpathentry kind="src" path="src/main/Master"/>
-	<classpathentry kind="src" path="src/main/Javapractice"/>
-	<classpathentry kind="src" path="src/test/seleniumPractice"/>
-	<classpathentry kind="src" path="src/test/javaInterviewQ"/>
-	<classpathentry kind="src" path="src/test/seleniumInterviewProject"/>
+	<classpathentry kind="src" path="src/test/seleniumInterviewProjectThoid"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
 		<attributes>
 			<attribute name="module" value="true"/>

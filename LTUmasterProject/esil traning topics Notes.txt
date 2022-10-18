@@ -127,15 +127,15 @@ c. The field's name.
 required elements of a method declaration are the method's return type, name, a pair of parentheses, (),
  and a body between braces, {}.
  
--> Non static - ( run type bound) - we can call both static and Nonstatic
+-> Non static - ( run type bound) - we can call both static and Non static
 
 ->Static ( compile type bound) - we can call only static
 //static method/variable - load only once irrespective of number of creation of classes 
 
-3.Control Statements - based on condition we are excute	
+3.Control Statements - based on condition we are execute	
               -If - multiple condition in parentheses ( && ,|| }
               -if else 
-              -iff else if ( if any of condition is statifed will not excute any other else)
+              -iff else if ( if any of condition is satisfied will not execute any other else)
              - SWITCH -  single variable conditions
              - LOOP: for, for-each , while , do-while
 
@@ -144,7 +144,7 @@ required elements of a method declaration are the method's return type, name, a 
 session 3:
 Note : Debug point 
 LOOP: for, for-each , while , 
-do-while : excute the statement atleast once then check for condition
+do-while : execute the statement at least once then check for condition
 break;
 continue - it will  skip rest of statement and will back to next iteration
 
@@ -156,11 +156,11 @@ session 4 :
 
 Abstract
 Overloading
-Overridding
+Overriding
 Encapsulation
 Interface
 
-Polymorphsim - runtime, complie time 
+polymorphism - runtime, compile time 
 
 
 2. CONSTRUCTOR - 
@@ -175,9 +175,40 @@ parameterized - constructor overloading
 4. THIS KEYWORD - current object
 local variable shadow the instance variable 
 used when same variable are used / current object or instance
-		
-class area - 		
-Heap memory - object creation
+we can call the constructor and it should be 1 line of 
 
+Class loading : https://jamboard.google.com/d/1urAY4Vgs_YkoxTtNKVyBVb8PtHEULs18LMGuF_5CWCY/viewer		
+class area - static methods,variable class  are loaded 	 here	
+Heap memory/Non static class - object creation
+variables
+
+
+session 5 :
+Inhertiance
+a->b->c-> Multi level
+multiple -> interface
+abstraction -> hiding it's implementation we cannot create object of abstract class
+https://www.softwaretestinghelp.com/what-is-abstraction-in-java/#Abstract_Method_In_Java
+abstract class <classname>
+    {
+            public abstract void abstractMethod();
+            public void normalMethod()
+            {
+                    //method body
+            }   
+    }   
+    
+interface - variable are final cannot be changed any where, by default every method is abstract 
+Encapsulation - using setter and getter to access the variable  , we have total control
+
+//loose coupling
+Imagine you have created two classes, A and B, in your program. 
+Class A is called volume, and class B evaluates the volume of a cylinder. 
+If you change class A volume, then you are not forced to change class B. This is called loose coupling in Java.
+
+Benefits of loose coupling
+Loose coupling allows making changes in the code easily.
+Testing of loosely coupled structures is easier than the tightly coupled structure.
+Less amount of code is required to make changes in a loosely coupled structure than in a tightly coupled structure.
 
 
