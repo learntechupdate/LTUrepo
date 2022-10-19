@@ -1,4 +1,4 @@
-package pageobjectOfAssigment1;
+package pageobjectOfLtuAssigment;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 import Automation.LTU.BrowserFactory;
 import libraryGeneric.Utility;
 import libraryTemp.InterviewUtility;
-import pageobjectOfAssigment1.AmazonBasePage;
-import pageobjectOfAssigment1.FlipkartBasePage;
+import pageobjectOfLtuAssigment.AmazonBasePage;
+import pageobjectOfLtuAssigment.FlipkartBasePage;
 
 public class ItemPriceCompareTest extends BaseTestIQ {
 	@Test(priority=1)

@@ -4,11 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import Automation.LTU.BrowserFactory;
+import AutomationLTU.BrowserFactory;
 import libraryGeneric.Utility;
-import pageobject.RennixIQTestAssignment2.BasePage;
-import pageobject.RennixIQTestAssignment2.TripAdvisorHotelReviewPage;
-import pageobject.RennixIQTestAssignment2.TripAdvisorHotelUserReviewPage;
+import pageobjectRennixIQTestAssignment2.BasePage;
+import pageobjectRennixIQTestAssignment2.TripAdvisorHotelReviewPage;
+import pageobjectRennixIQTestAssignment2.TripAdvisorHotelUserReviewPage;
 import testscripts.pom.BaseTest;
 
 

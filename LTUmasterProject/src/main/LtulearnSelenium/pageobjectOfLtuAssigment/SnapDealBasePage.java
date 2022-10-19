@@ -1,4 +1,4 @@
-package pageobjectOfAssigment1;
+package pageobjectOfLtuAssigment;
 
 public class SnapDealBasePage implements EcomBaseInterface{
 

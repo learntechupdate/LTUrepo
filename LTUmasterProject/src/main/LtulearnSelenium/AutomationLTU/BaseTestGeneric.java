@@ -1,4 +1,4 @@
-package Automation.LTU;
+package AutomationLTU;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;

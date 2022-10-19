@@ -10,9 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import AutoFWsample.pageobject.LoginPage;
 import Automation.LTU.BrowserFactory;
-import libraryGeneric.Excel;
+
 
 public class ReadUsingExcel {
 
@@ -40,7 +39,6 @@ public class ReadUsingExcel {
 		
 		Reporter.log("Testing using Excel", true);
 		
-		LoginPage lp = new LoginPage(driver);
 		String username=Excel.readData("./testdata/DatadrivenExcel.xlsx", "Sheet1", 4, 0);
 		String password=Excel.readData("./testdata/DatadrivenExcel.xlsx", "Sheet1", 4, 1);
 		lp.login(username, password);
