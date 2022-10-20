@@ -1,0 +1,214 @@
+https://docs.oracle.com/javase/tutorial/index.html
+https://docs.oracle.com/javase/tutorial/java/index.html
+
+29Sep22 : session 1 recall notes: 
+->create project, package , class file, main method ( psvm)
+
+//Naming conventions( camel case)
+
+->Class name- First letter Caps and Word's first Letter caps( Camel case )
+StudentClass
+
+-> constructor 
+StudentClass()
+
+->Method name - 1st Letter Lower cases and Words's 1st Letter Caps
+addOperation() , actionPerformed()
+
+-> variable name
+mobileName
+
+
+->package name - lower case
+arrayconcept 
+
+->Interface - ends with able
+Runable, Readable , remote
+
+-> Constant - seprated by _(underscore)
+MAX_PRICE
+
+-> Variable types
+
+we can use _ between numeric Ex. 50_000
+
+-> Primitive data types:   
+There are six numeric types four integer and two floating point:
+
+
+byte 1 byte  -128 to 127
+short 2 bytes  -32,768 to 32,767
+int 4 bytes -2,147,483,648 to 2,147,483,647
+long 8 bytes -9,223,372,036,854,775,808 to 9,223,372,036,854,775,80
+float 4 bytes 7 decimal digits
+double 8 bytes 16 decimal digits
+
+Non numeric : boolean  true or false
+
+-> Non primitive data types  : String , Array , List , 
+-> Arthimetic operators : + , - , * , /
+->Logical operators : && , ||
+->Relative : ==, > , <, >=, <= , !=
+-> Urinary operator : ++ , -- ,( post and pre)
+
+sum -= sum;
+
+
+6thOct2022 : Session 2 
+
+1.List of Java Keyword
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
+
+
+enum**** : An enum type is a special data type that enables for a variable to be a set of predefined constants. 
+The variable must be equal to one of the values that have been predefined for it
+https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+
+Note : if enum is used in constructor of class we cannot rename it
+
+
+--need to check below/*
+The enum declaration defines a class (called an enum type). The enum class body can include methods and other fields.
+*/
+
+transient :
+strictfp : 
+volatile:
+const
+native
+
+
+
+2.CLASSES  
+https://docs.oracle.com/javase/tutorial/java/concepts/class.html
+A class is the blueprint from which individual objects are created.
+
+
+-----***----
+Declaring class : https://docs.oracle.com/javase/tutorial/java/javaOO/classdecl.html
+
+//Declaring Classes
+
+class MyClass extends MySuperClass implements YourInterface {
+    // field, constructor, land
+    // method declarations
+}
+-----***----
+
+
+class declarations can include these components, in order:
+
+b.The class name, with the initial letter capitalized by convention Ex. MyClass
+c.The name of the class's parent (superclass), if any, preceded by the keyword extends. 
+  A class can only extend (subclass) one parent.
+d.A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. 
+  A class can implement more than one interface.
+
+
+Declaring Member Variables : https://docs.oracle.com/javase/tutorial/java/javaOO/variables.html
+
+->Member variables in a class—these are called fields.
+->Variables in a method or block of code—these are called local variables.
+->Variables in method declarations—these are called parameters.
+
+
+Field declarations are composed of three components, in order:
+
+a.Modifiers public or private. 
+ ( public modifier—the field is accessible from all classes. 
+   private modifier—the field is accessible only within its own class)
+b.The field's type.
+c. The field's name.
+
+
+2.2 Methods:
+
+required elements of a method declaration are the method's return type, name, a pair of parentheses, (),
+ and a body between braces, {}.
+ 
+-> Non static - ( run type bound) - we can call both static and Non static
+
+->Static ( compile type bound) - we can call only static
+//static method/variable - load only once irrespective of number of creation of classes 
+
+3.Control Statements - based on condition we are execute	
+              -If - multiple condition in parentheses ( && ,|| }
+              -if else 
+              -iff else if ( if any of condition is satisfied will not execute any other else)
+             - SWITCH -  single variable conditions
+             - LOOP: for, for-each , while , do-while
+
+
+
+session 3:
+Note : Debug point 
+LOOP: for, for-each , while , 
+do-while : execute the statement at least once then check for condition
+break;
+continue - it will  skip rest of statement and will back to next iteration
+
+continue; // cannot be used out side loop
+break; // cannot be used outside loop or switch
+
+session 4 :
+1. JAVA OOPS CONCEPT
+
+Abstract
+Overloading
+Overriding
+Encapsulation
+Interface
+
+polymorphism - runtime, compile time 
+
+
+2. CONSTRUCTOR - 
+a.member method , b.same name as class name , c.will not return any value, d.used to allocate memory 
+e. will be called automatically when object is created
+
+default constructor  - inbuilt methods are written for loading the class when invoked while object is created,
+parameterized - constructor overloading 
+
+3. STATIC KEYWORDS - make class , method , variable static ( loading happen in class area )
+
+4. THIS KEYWORD - current object
+local variable shadow the instance variable 
+used when same variable are used / current object or instance
+we can call the constructor and it should be 1 line of 
+
+Class loading : https://jamboard.google.com/d/1urAY4Vgs_YkoxTtNKVyBVb8PtHEULs18LMGuF_5CWCY/viewer		
+class area - static methods,variable class  are loaded 	 here	
+Heap memory/Non static class - object creation
+variables
+
+
+session 5 :
+Inhertiance
+a->b->c-> Multi level
+multiple -> interface
+abstraction -> hiding it's implementation we cannot create object of abstract class
+https://www.softwaretestinghelp.com/what-is-abstraction-in-java/#Abstract_Method_In_Java
+abstract class <classname>
+    {
+            public abstract void abstractMethod();
+            public void normalMethod()
+            {
+                    //method body
+            }   
+    }   
+    
+interface - variable are final cannot be changed any where, by default every method is abstract 
+Encapsulation - using setter and getter to access the variable  , we have total control
+
+//loose coupling
+Imagine you have created two classes, A and B, in your program. 
+Class A is called volume, and class B evaluates the volume of a cylinder. 
+If you change class A volume, then you are not forced to change class B. This is called loose coupling in Java.
+
+Benefits of loose coupling
+Loose coupling allows making changes in the code easily.
+Testing of loosely coupled structures is easier than the tightly coupled structure.
+Less amount of code is required to make changes in a loosely coupled structure than in a tightly coupled structure.
+
+

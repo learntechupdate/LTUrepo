@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Message beforeSuite]]>
+    </line>
+    <line>
+      <![CDATA[Message beforeTest]]>
+    </line>
+    <line>
+      <![CDATA[Message beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[Message beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 1]]>
+    </line>
+    <line>
+      <![CDATA[Message afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Message beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 2]]>
+    </line>
+    <line>
+      <![CDATA[Message afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Message afterClass]]>
+    </line>
+    <line>
+      <![CDATA[Message afterTest]]>
+    </line>
+    <line>
+      <![CDATA[Message afterSuite]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110" started-at="2022-10-20T05:03:09Z" finished-at="2022-10-20T05:03:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="110" started-at="2022-10-20T05:03:09Z" finished-at="2022-10-20T05:03:09Z">
+      <class name="selenium.testngDemo.TestNGtest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message beforeSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="beforeTest" is-config="true" duration-ms="3" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message beforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message beforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="TC1" duration-ms="18" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC2()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="TC2" duration-ms="5" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="afterMethod" is-config="true" duration-ms="2" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="afterClass" is-config="true" duration-ms="2" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message afterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message afterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:selenium.testngDemo.TestNGtest@148080bb]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-10-20T10:33:09Z" finished-at="2022-10-20T10:33:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message afterSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- selenium.testngDemo.TestNGtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
