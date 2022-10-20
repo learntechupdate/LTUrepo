@@ -12,10 +12,16 @@ C:\\Program Files\\Java\\jdk1.8.0_241\\bin\\javaw.exe
 -vmargs
 
 ...
-///testng plugin//
+///testng plugin if manual installation if certifcate error//
 http://github.com/cbeust/testng
 https://www.versioneye.com/java/org.testng:testng/6.9.10
 
+Alkesh Sakhare : https://www.youtube.com/watch?v=K7LXOJfskJo
+
+https://github.com/cbeust/testng-eclipse
+https://testng.org/testng-eclipse-update-site/zipped/7.4.0.202106051955/org.testng.eclipse.updatesite.zip
+
+----------
 TestNG installation URL for latest Eclipse
 
 TestNG - http://dl.bintray.com/testng-team/testng-eclipse-release/
