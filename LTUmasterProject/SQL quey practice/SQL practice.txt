@@ -1,0 +1,63 @@
+SQL> create table customers(CustomerID int,CustomerName varchar(35),ContactName varchar(25),Address varchar(25),City varchar(25)
+,PostalCode varchar(25),Country varchar(25));
+
+insert into customers values(5,'Berglunds snabbköp','Christina Berglund','Berguvsvägen 8','Luleå','S-958 22','Sweden');
+
+select top 2 CustomerID from customers;
+SELECT TOP 50 PERCENT * FROM Customers;
+
+SELECT * FROM Customers
+WHERE City LIKE 'Ber%';
+
+SELECT * FROM Customers
+WHERE City LIKE '%er%';
+
+
+SELECT * FROM Customers
+WHERE City LIKE '_erlin';
+
+SELECT * FROM Customers
+WHERE City LIKE '[Ber]%';
+
+
+SELECT CustomerName AS Customer FROM Customers;
+
+
+SELECT CustomerName AS Customer FROM Customers;
+
+
+create table Suppliers (SupplierID int,SupplierName varchar(30),ContactName varchar(20),Address varchar(20),City varchar(20),PostalCode varchar(20),Country varchar(20),Phone varchar(20));
+
+
+insert into Suppliers values(2,'New Orleans Cajun Delights','Shelley Burke','P.O. Box 78934','New Orleans','70117','USA','(100) 555-4822');
+insert into Suppliers values(3,'Grandma Kellys Homestead','Regina Murphy','707 Oxford Rd.','Ann Arbor','48104','USA','(313) 555-5735');
+
+INSERT INTO Customers (CustomerName, Country)
+SELECT SupplierName, Country FROM Suppliers
+WHERE Country='UK';
+
+
+
+
+
+SELECT *
+INTO Suppliers IN 'Backup.mdb'
+FROM Customers;
+
+
+
+SELECT *
+INTO Suppliers
+FROM Customers;
+
+
+
+ALTER TABLE Persons
+ADD UNIQUE (PersonID);
+
+ALTER TABLE Persons
+DROP UNIQUE (PersonID);
+
+ALTER TABLE Persons DROP PRIMARY KEY (PersonID);
+
+
