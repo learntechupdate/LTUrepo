@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="LTUmasterProject/src/main/java"/>
+	<classpathentry kind="src" path="LTUmasterProject/src/main/LtuAutomationQuickPractice"/>
+	<classpathentry kind="src" path="LTUmasterProject/src/main/LtulearnJava"/>
+	<classpathentry kind="src" path="LTUmasterProject/src/main/LtulearnSelenium"/>
+	<classpathentry kind="src" path="LTUmasterProject/src/test/seleniumInterviewProjectThoid"/>
+	<classpathentry kind="lib" path="LTUmasterProject/target/LTUmasterProject-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="LTUmasterProject/target/classes"/>
+</classpath>
