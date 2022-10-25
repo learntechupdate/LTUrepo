@@ -1,0 +1,48 @@
+//Selenium concepts
+Switch to Tab using number( library.utility ) 
+
+scrollTillWebelement
+
+How to handle browser level notification using Selenium Webdriver
+
+//Java concepts
+convert Alphanumeric->Numeric String -> Numeric
+//To do : In price read decimal also from above concepts
+
+
+//Selenium concepts
+Switch to Tab using number( library.utility ) 
+
+scrollTillWebelement
+
+How to handle browser level notification using Selenium Webdriver
+
+//Java concepts
+convert Alphanumeric->Numeric String -> Numeric
+//To do : In price read decimal also from above concepts
+
+//for XML preparation in RIL
+Making user of replace string 
+String replacedString = inputstring.replace("oldstring", "New string");
+
+
+
+//To be thorough 
+Array list & HashSet , Hashmap
+
+Important note:
+-> One running Failed testng xml on rerunning failed the index has to be updated,
+   if not it will ref to old value
+
+//updated browser factore for IE browser
+
+//To be thorough 
+Array list & HashSet , Hashmap
+
+Important note:
+-> One running Failed testng xml on rerunning failed the index has to be updated,
+   if not it will ref to old value
+
+//updated browser factore for IE browser
+
+//test
